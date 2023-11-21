@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const App = () => {
   const [data, setData] = useState([]);
 
@@ -8,7 +9,7 @@ const App = () => {
   }, []);
 
   const fetchData = () => {
-    fetch('https://bot-api-7sh5.onrender.com/Reviews')
+    fetch('https://bot-api-7sh5.onrender.com/rooms')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
