@@ -28,7 +28,7 @@ const Services= () => {
 
   return (
     <div>
-      <h1>Data from JSON Server</h1>
+      <h1>Book Your Next Stay</h1>
       <SearchBar data={data}  />
 
       <ul>
