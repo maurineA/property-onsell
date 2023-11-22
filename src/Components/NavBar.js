@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 function NavBar() {
   return (
     <>
-    
-        <Link to="/" style={{marginRight:"20px"}}>Home </Link>
-      
+
+      <Link to="/services"style={{marginRight:"20px"}}>Home</Link>
       
       
     
